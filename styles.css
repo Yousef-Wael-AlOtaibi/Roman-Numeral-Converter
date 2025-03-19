@@ -17,6 +17,7 @@
   body{
     background:linear-gradient(180deg,purple,black);
     border:2px solid black;
+    animation: zoom-out 2s ease-out;
   }
   #output{
     border:1px solid rgba(128,0,128,0.8);
@@ -229,4 +230,10 @@
     50%{
         font-size:100%;
        }
+}
+@keyframes zoom-out {
+  0%{transform: scale(10);
+  }
+  100%{transform: scale(1);
+  }
 }
