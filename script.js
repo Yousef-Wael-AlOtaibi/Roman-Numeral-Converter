@@ -78,6 +78,7 @@ function fourDigit(number){
   }
 }    
 const digitValue = number => {
+  textArr = [];
   const numberArr = [...number];
   console.log(numberArr)
   switch (numberArr.length){
