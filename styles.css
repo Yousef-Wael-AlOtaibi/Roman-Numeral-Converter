@@ -1,5 +1,5 @@
 .zoom-in-out{
-    animation: zoom-in-out 400ms ease-in-out;
+    animation: zoom-in-out 200ms ease-in-out;
 }
 .shake{
     animation: shake 400ms linear  5 ;
