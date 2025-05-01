@@ -17,7 +17,7 @@
   body{
     background:linear-gradient(180deg,purple,black);
     border:2px solid black;
-    animation: zoom-out 2s ease-out;
+    animation: zoom-out 200ms ease-out;
   }
   #output{
     border:1px solid rgba(128,0,128,0.8);
